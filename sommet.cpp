@@ -38,3 +38,20 @@ std::vector<int> Sommet::idVoisins() const
 
     return ids;
 }
+
+int Sommet::getId()
+{
+    return m_id;
+}
+
+int Sommet::getX()
+{
+    return m_x;
+}
+
+int Sommet::getY()
+{
+    return m_y;
+}
+
+

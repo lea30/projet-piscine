@@ -10,6 +10,10 @@ public :
     Arete(double m_id, double m_p1, double m_p2, double m_s1, double m_s2 );
     void afficherData();
     float getP1();
+    double getId();
+    float getP2();
+    double getS1();
+    double getS2();
 
 private :
     double m_id;

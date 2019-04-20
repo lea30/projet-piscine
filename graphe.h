@@ -17,8 +17,10 @@ public :
     void kruskal();
     ~Graphe();
 private :
-     std::unordered_map<int,Sommet> m_sommets;
+     //std::unordered_map<int,Sommet> m_sommets;
+     std::unordered_map<int, Sommet> m_sommets;
      std::unordered_map<double,Arete> m_aretes;
+
 };
 
 #endif // GRAPHE_H_INCLUDED

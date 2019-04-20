@@ -10,8 +10,12 @@ using namespace std;
 int main()
 {
     Graphe g{"broadway.txt", "broadway_weights_0.txt"};
-    g.afficher();
+
     g.kruskal();
+    g.afficher();
+
+
+
     return 0;
 
 }

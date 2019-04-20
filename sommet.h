@@ -22,6 +22,9 @@ public:
     std::vector<int> idVoisins() const;
     /// retourne le degré du sommet
     int getDegre() {return m_voisins.size();}
+    int getId();
+    int getX();
+    int getY();
 
 private:
     /// contient la liste de voisins

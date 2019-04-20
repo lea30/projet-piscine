@@ -20,3 +20,25 @@ float Arete::getP1()
 {
     return m_p1;
 }
+
+
+double Arete::getId()
+{
+    return m_id;
+}
+
+float Arete::getP2()
+{
+    return m_p2;
+}
+
+double Arete::getS1()
+{
+    return m_s1;
+}
+
+double Arete::getS2()
+{
+    return m_s2;
+}
+
